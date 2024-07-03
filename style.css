@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.redd.it/71k61pmm5kd81.jpg"); /* Set the background image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; /* Center the image both horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay for better text visibility */
+    color: #fff; /* White text for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+  
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #d9e0e7; /* Light blue for headings */
+}
+  
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.link-list li {
+    margin-bottom: 15px;
+}
+  
+.link-list a {
+    text-decoration: none;
+    color: #d9e0e7; /* Light blue for links */
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.link-list a:hover {
+    background-color: #495057; /* Darker blue for hover */
+}
+  
+.sub-link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+  
+.sub-link-list li {
+    margin-bottom: 5px;
+}
+  
+.sub-link-list a {
+    display: block;
+    padding: 5px 10px;
+    color: #aaa; /* Lighter gray for sub-links */
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.sub-link-list a:hover {
+    background-color: #495057; /* Darker blue for hover */
+}
+  
+.link-list li.active .sub-link-list {
+    display: block;
+}
+
+i {
+    font-size: 130%;
+}
+
+#pronouns {
+    color: #aaa;
+}
+
+.disclaimer {
+    color: #aaa;
+}
+
+.disclaimer a {
+    color: #26559c;
+}
