@@ -1,2 +1,2 @@
 # RottenAppleSalt.github.io
-My links
+[Open Site](https://rottenapplesalt.github.io/)
