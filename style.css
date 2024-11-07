@@ -113,13 +113,13 @@ iframe {
 }
 
 .header-image {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 #mc-head {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
 }
 
 .mod-list {
