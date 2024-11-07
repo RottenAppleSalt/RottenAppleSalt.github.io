@@ -117,6 +117,11 @@ iframe {
   max-height: 100px;
 }
 
+#mc-head {
+    width: 100px;
+    height: 100px;
+}
+
 .mod-list {
     list-style: none;
     padding: 0;
