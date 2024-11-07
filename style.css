@@ -106,18 +106,6 @@ iframe {
     border-radius: 5px;
 }
 
-.header-container {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-}
-
-.header-image {
-  max-width: 50%;
-  max-height: 100%;
-}
-
 #mc-head {
     width: 200px;
     height: 200px;
